@@ -55,6 +55,6 @@ signed main(){
     // row wise sum of 2D array
     // row_sum(arr,row,col);
     cout<<"after taking TRANSPOSE: "<<endl;
-    // transpose(arr,row,col);
+    transpose(arr,row,col);
     printarr_rowise(arr,row,col);
 }
