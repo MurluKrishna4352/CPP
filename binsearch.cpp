@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <iostream>
 #define MOD 1000000007
 #define MODI 998244353
 #define INF le18
@@ -13,6 +13,7 @@ int bin_search(int arr[],int n,int target){
     while(start<=end){
         int mid = (start+end)/2;
         if (target == mid){
+            // cout<<mid<<endl;
             return mid;
         }
         else if (target<arr[mid]){
