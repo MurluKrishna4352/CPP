@@ -3,6 +3,11 @@
         "ostream": "cpp",
         "chrono": "cpp",
         "functional": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "source_location": "cpp",
+        "syncstream": "cpp",
+        "expected": "cpp",
+        "spanstream": "cpp",
+        "cmath": "cpp"
     }
 }
