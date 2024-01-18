@@ -16,10 +16,11 @@ signed main(){
     while(num!=0){
         int rem;
         rem = num%2;
-        num /=2;
         // cout<<rem;
         bin_num = rem*pow(10,i++)+bin_num;
-        cout<<bin_num;
+        num /=2;
+        
 
     }
+        cout<<bin_num;
 }
