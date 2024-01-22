@@ -11,13 +11,21 @@ using lld = long double;
 signed main(){
     int num;
     cin>>num;
-    if (num>0){
-        cout<<"+ve";
-    }
-    else if(num<0){
-        cout<<"-ve";
-    }
-    else{
-        cout<<"number is zero";
-    }
+
+    // postive negative zero
+    // if (num>0){
+    //     cout<<"+ve";
+    // }
+    // else if(num<0){
+    //     cout<<"-ve";
+    // }
+    // else{
+    //     cout<<"number is zero";
+    // }
+
+
+
+    // odd even
+    if (num%2==0){cout<<"even";}
+    else{cout<<"odd";}
 }
