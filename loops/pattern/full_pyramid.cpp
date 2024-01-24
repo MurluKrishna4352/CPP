@@ -15,7 +15,7 @@ signed main(){
         int k =0;
         for(int j=0; j<((2*n)-1);j++){
             if(j<(n-i-1)){
-                cout<<" ";
+                cout<<"a";
             }
             else if(k<(2*i+1)){
                 cout<<'*';

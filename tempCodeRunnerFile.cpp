@@ -8,20 +8,15 @@ using ll = long long;
 using ull = unsigned long long;
 using lld = long double;
 signed main(){
-    // full pyramid
-    int row,col;
+    int n;
     cin>>n;
-    for(int i=0; i<row; i++){
-        int k =0;
-        for(int j=0; j<(2*row-1)){
-            if(j<(n-i-1)){
-                cout<<"  ";
-            }
-            else if(k<(2*i+1)){
-                cout<<'*';
-
-            }
-            else{cout<<"  ";}
+    for(int row=0; row<n; row++){
+        for(int col=0;col<row; col++){
+            cout<<" ";
         }
+        for(int i=0; i<n-row; i++){
+            cout<<"* ";
+        }
+        cout<<endl;
     }
 }
