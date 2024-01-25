@@ -1,0 +1,16 @@
+def find_max_xor(a, hi, k):
+    max_xor = 0
+    for i in range(a, hi + 1):
+        for j in range(i + 1, hi + 1):
+            if i < j <= k:
+                xor = i ^ j
+                if xor > max_xor:
+                    max_xor = xor
+    return max_xor
+
+# Example usage:
+a = 10
+hi = 80
+k = 19
+result = find_max_xor(a, hi, k)
+print("The maximum value of a XOR b is:", result)
